@@ -20,5 +20,10 @@ npm run build
 npm run lint
 ```
 
+### To Run mock API on another Terminal Window
+```
+json-server --watch db.json
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
