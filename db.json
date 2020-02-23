@@ -1,77 +1,130 @@
 {
-	"events": [
-	  {
-		"id": 1,
-		"title": "Beach Cleanup",
-		"date": "Aug 28 2020",
-		"time": "10:00",
-		"location": "Daytona Beach",
-		"description": "Let's clean up this beach.",
-		"organizer": "Oliver Carlos",
-		"category": "sustainability",
-		"attendees": [
-		  {
-			"id": "abc123",
-			"name": "Oliver Carlos"
-		  },
-		  {
-			"id": "def456",
-			"name": "Cristine Cristobal"
-		  },
-		  {
-			"id": "ghi789",
-			"name": "Lexi Lore"
-		  },
-		  {
-			"id": "jkl101",
-			"name": "Ann Mateo"
-		  }
-		]
-	  },
-	  {
-		"id": 2,
-		"title": "Park Cleanup",
-		"date": "Nov 12 2020",
-		"time": "12:00",
-		"location": "132 N Magnolia Street, Orlando, Florida",
-		"description": "We're going to clean up this park.",
-		"organizer": "Oliver Carlos",
-		"category": "nature",
-		"attendees": [
-		  {
-			"id": "ghi789",
-			"name": "Lexi Lore"
-		  },
-		  {
-			"id": "jkl101",
-			"name": "Ann Mateo"
-		  }
-		]
-	  },
-	  {
-		"id": 3,
-		"title": "Pet Adoption Day",
-		"date": "Dec 2 2020",
-		"time": "12:00",
-		"location": "132 N Magnolia Street, Orlando, Florida",
-		"description": "Help animals find new homes.",
-		"organizer": "Cristine Cristobal",
-		"category": "animal welfare",
-		"attendees": [
-		  {
-			"id": "abc123",
-			"name": "Oliver Carlos"
-		  },
-		  {
-			"id": "ghi789",
-			"name": "Lexi Lore"
-		  },
-		  {
-			"id": "jkl101",
-			"name": "Ann Mateo"
-		  }
-		]
-	  }
-	]
-  }
-  
+  "events": [
+    {
+      "id": 1,
+      "title": "Beach Cleanup",
+      "date": "Aug 28 2020",
+      "time": "10:00",
+      "location": "Daytona Beach",
+      "description": "Let's clean up this beach.",
+      "organizer": "Oliver Carlos",
+      "category": "sustainability",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Oliver Carlos"
+        },
+        {
+          "id": "def456",
+          "name": "Cristine Cristobal"
+        },
+        {
+          "id": "ghi789",
+          "name": "Lexi Lore"
+        },
+        {
+          "id": "jkl101",
+          "name": "Ann Mateo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Park Cleanup",
+      "date": "Nov 12 2020",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "We're going to clean up this park.",
+      "organizer": "Oliver Carlos",
+      "category": "nature",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Lexi Lore"
+        },
+        {
+          "id": "jkl101",
+          "name": "Ann Mateo"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pet Adoption Day",
+      "date": "Dec 2 2020",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "Help animals find new homes.",
+      "organizer": "Cristine Cristobal",
+      "category": "animal welfare",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Oliver Carlos"
+        },
+        {
+          "id": "ghi789",
+          "name": "Lexi Lore"
+        },
+        {
+          "id": "jkl101",
+          "name": "Ann Mateo"
+        }
+      ]
+    },
+    {
+      "id": 417322,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver Carlos"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver Carlos"
+      },
+      "title": "Example Event",
+      "description": "Example Description",
+      "location": "Example Location",
+      "date": "2020-02-21T14:11:00.000Z",
+      "time": "9:00",
+      "attendees": []
+    },
+    {
+      "id": 414990,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver Carlos"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver Carlos"
+      },
+      "title": "Housing",
+      "description": "Housing Description",
+      "location": "Housing Location",
+      "date": "2020-02-14T14:16:00.000Z",
+      "time": "8:00",
+      "attendees": []
+    },
+    {
+      "id": 727139,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver Carlos"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver Carlos"
+      },
+      "title": "Animals",
+      "description": "aNiMaL",
+      "location": "Animal Location",
+      "date": "2020-02-01T14:17:00.000Z",
+      "time": "12:00",
+      "attendees": []
+    }
+  ]
+}
