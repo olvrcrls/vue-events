@@ -7,16 +7,18 @@
         :to="{ name: 'event-list', query: { page: page - 1 } }"
         rel="prev"
       >
-        Previous Page
+        Prev Page
       </router-link>
-      |
     </template>
-    <router-link
-      :to="{ name: 'event-list', query: { page: page + 1 } }"
-      rel="next"
-    >
-      Next Page
-    </router-link>
+    <template v-if="this.eventsTotal > this.page * 3">
+      <router-link
+        :to="{ name: 'event-list', query: { page: page + 1 } }"
+        rel="next"
+        style="float:right;"
+      >
+        Next Page
+      </router-link>
+    </template>
   </div>
 </template>
 
@@ -29,7 +31,7 @@ export default {
     this.$store.dispatch("fetchEvents", { perPage: 3, page: this.page });
   },
   computed: {
-    ...mapState(["events"]),
+    ...mapState(["events", "eventsTotal"]),
     page() {
       return parseInt(this.$route.query.page) || 1;
     }

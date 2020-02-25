@@ -125,6 +125,24 @@
       "date": "2020-02-01T14:17:00.000Z",
       "time": "12:00",
       "attendees": []
+    },
+    {
+      "id": 123121,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver Carlos"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver Carlos"
+      },
+      "title": "Examples",
+      "description": "example",
+      "location": "Animal Location",
+      "date": "2020-02-01T14:17:00.000Z",
+      "time": "12:00",
+      "attendees": []
     }
   ]
 }
