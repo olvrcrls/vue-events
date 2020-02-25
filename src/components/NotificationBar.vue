@@ -1,5 +1,5 @@
 <template>
-  <div class="notification-bar" :class="notificationTypeClass">
+  <div class="notification-bar -shadow" :class="notificationTypeClass">
     <p>{{ notification.message }}</p>
   </div>
 </template>
@@ -38,5 +38,6 @@ export default {
 <style scoped>
 .notification-bar {
   margin: 1em 0 1em;
+  padding: 1em 1em 1em;
 }
 </style>
