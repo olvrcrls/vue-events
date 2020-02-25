@@ -36,7 +36,6 @@ export const actions = {
     EventService.getEvents(perPage, page)
       .then(response => {
         commit("SET_EVENTS", response.data);
-        console.log(response.headers["x-total-count"]);
         commit("SET_EVENTS_TOTAL", response.headers["x-total-count"]);
       })
       .catch(error => console.log(error));
