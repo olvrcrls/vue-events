@@ -99,9 +99,7 @@ export default {
           });
           this.event = this.createFreshEventObject();
         })
-        .catch(() => {
-          console.log("There's a problem creating an event.");
-        });
+        .catch(() => {});
     }
   }
 };
