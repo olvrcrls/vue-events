@@ -143,6 +143,42 @@
       "date": "2020-02-01T14:17:00.000Z",
       "time": "12:00",
       "attendees": []
+    },
+    {
+      "id": 415943,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "title": "Hello World",
+      "description": "Hello House",
+      "location": "Somewhere",
+      "date": "2020-02-29T04:49:00.000Z",
+      "time": "10:00",
+      "attendees": []
+    },
+    {
+      "id": 666566,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "title": "Hello Example ",
+      "description": "Namespace",
+      "location": "Example",
+      "date": "2020-02-29T04:55:00.000Z",
+      "time": "17:00",
+      "attendees": []
     }
   ]
 }

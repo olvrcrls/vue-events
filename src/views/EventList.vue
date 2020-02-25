@@ -28,7 +28,7 @@ import { mapState } from "vuex";
 export default {
   components: { EventCard },
   created() {
-    this.$store.dispatch("fetchEvents", { perPage: 3, page: this.page });
+    this.$store.dispatch("event/fetchEvents", { perPage: 3, page: this.page });
   },
   computed: {
     ...mapState({
