@@ -179,6 +179,60 @@
       "date": "2020-02-29T04:55:00.000Z",
       "time": "17:00",
       "attendees": []
+    },
+    {
+      "id": 293204,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "title": "ANother",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 934909,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "title": "Lalallaa",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 897296,
+      "user": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Oliver"
+      },
+      "title": "Something",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
