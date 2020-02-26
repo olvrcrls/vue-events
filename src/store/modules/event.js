@@ -47,10 +47,11 @@ export const actions = {
   },
 
   fetchEvents({ commit, dispatch }, { perPage, page }) {
-    EventService.getEvents(perPage, page)
+    return EventService.getEvents(perPage, page)
       .then(response => {
         commit("SET_EVENTS", response.data);
         commit("SET_EVENTS_TOTAL", response.headers["x-total-count"]);
+        return response.data;
       })
       .catch(error => {
         const notification = {
@@ -58,6 +59,7 @@ export const actions = {
           message: `There was a problem fetching events: ${error.message}`
         };
         dispatch("notification/add", notification, { root: true });
+        throw error;
       });
   },
 
@@ -66,10 +68,12 @@ export const actions = {
 
     if (event) {
       commit("SET_EVENT", event);
+      return event;
     } else {
       return EventService.getEvent(id)
         .then(response => {
           commit("SET_EVENT", response.data);
+          return response.data;
         })
         .catch(error => {
           const notification = {
@@ -77,6 +81,7 @@ export const actions = {
             message: `There was a problem fetching events ${error.message}`
           };
           dispatch("notification/add", notification, { root: true });
+          throw error;
         });
     }
   }
