@@ -18,7 +18,7 @@ const routes = [
     props: true
   },
   {
-    path: "/event/:id",
+    path: "/event/:id(\\d+)",
     name: "event-show",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -49,7 +49,7 @@ const routes = [
     name: "event-create"
   },
   {
-    path: "/404",
+    path: "/not-found",
     component: NotFound,
     props: true,
     name: "404"
@@ -70,7 +70,7 @@ const router = new VueRouter({
   routes
 });
 
-router.beforeEach((routeTo, routeFrom, next) => {
+router.beforeEach((to, from, next) => {
   NProgress.start();
   next();
 });
