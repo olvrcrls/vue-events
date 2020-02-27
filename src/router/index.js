@@ -27,7 +27,6 @@ const routes = [
     //   import(/* webpackChunkName: "about" */ "../views/EventShow.vue"),
     component: EventShow,
     props: true,
-    alias: "/event",
     beforeEnter: (to, from, next) => {
       store
         .dispatch("event/fetchEvent", to.params.id)
