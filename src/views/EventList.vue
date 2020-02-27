@@ -26,6 +26,7 @@
 import EventCard from "@/components/EventCard";
 import { mapState } from "vuex";
 import store from "@/store";
+
 function getPageEvents(to, next) {
   const currentPage = parseInt(to.query.page) || 1;
   store
@@ -34,10 +35,14 @@ function getPageEvents(to, next) {
       to.params.page = currentPage;
       next();
     })
-    .catch(() => {
+    .catch(error => {
+      if (!error.response) {
+        next({ name: "network-issue" });
+      }
       next(false);
     });
 }
+
 export default {
   props: {
     page: {
