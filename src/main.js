@@ -5,7 +5,6 @@ import router from "./router";
 import store from "./store";
 require("@/components/_globals.js");
 require("nprogress/nprogress.css");
-
 Vue.config.productionTip = false;
 Vue.use(Vuelidate);
 
