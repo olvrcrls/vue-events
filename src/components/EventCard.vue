@@ -7,7 +7,7 @@
     }"
   >
     <div class="event-card -shadow">
-      <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
+      <span class="eyebrow">@{{ event.time }} on {{ event.date | date }}</span>
       <h4 class="title">{{ event.title }}</h4>
       <BaseIcon name="users" width="12" height="12">
         {{ event.attendees.length }} attending
