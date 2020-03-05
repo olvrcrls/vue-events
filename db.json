@@ -122,7 +122,7 @@
       "title": "Example",
       "description": "",
       "location": "",
-      "date": "",
+      "date": "2020-02-04T06:14:00.000Z",
       "time": "12:00",
       "attendees": []
     },
@@ -140,7 +140,7 @@
       "title": "Something good",
       "description": "",
       "location": "",
-      "date": "",
+      "date": "2020-02-04T06:14:00.000Z",
       "time": "16:00",
       "attendees": []
     },
@@ -158,7 +158,7 @@
       "title": "",
       "description": "",
       "location": "",
-      "date": "",
+      "date": "2020-02-04T06:14:00.000Z",
       "time": "",
       "attendees": []
     },
